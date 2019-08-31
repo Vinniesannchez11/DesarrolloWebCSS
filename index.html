@@ -2,22 +2,29 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width:width-device, user-scalable=no">
     <meta name="autor" content="Jorge Vinicio Sánchez">
     <meta name="description" content="Web responsive CSS y CSS3">
     <meta name="keywords" content="VinnieSanchez, Vinicio sanchez. vinniesanchez11">
     <title>Comenzando con la fotografía</title>
+    <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
-    <header>
-      <h1>Comenzando con la fotografía</h1>
-      <nav class="menu" >
-        <a href="#"><h4>Inicio</h4></a>
-        <a href="#"><h4>Paisajes</h4></a>
-        <a href="#"><h4>Retratos</h4></a>
+    <header class="cabecera">
+      <h1 id="titulo">Comenzando con la fotografía</h1>
+      <nav class="menu">
+        <a class="actual" href="index.html">Inicio</a>
+        <a href="#">Paisajes</a>
+        <a href="#">Retratos</a>
       </nav>
-    </header>
-    <section>
 
+    </header>
+    <section class="imgCentral" >
+        <img id="imagenC"  src="img/imgCentral.jpg" alt="Imagen gaviota en playa CA" >
+    </section >
+    <section class="imgSecundaria">
+      <img id="paisajes" src="img/paisajes.jpg" alt="gaviota">
+      <img id="retratos" src="img/retratos.jpg" alt="gaviota">
     </section>
     <footer>
     </footer>
